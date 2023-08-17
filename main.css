@@ -1,0 +1,328 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+h1 {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(#6f7e3a, #7d7e3a, #2c2c27f6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+header h1,
+header span {
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 800;
+}
+
+header span,
+footer span {
+    color: green;
+}
+
+.cont-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header button {
+    background-color: #fff;
+}
+
+#fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cut the images */
+
+.carousel-item {
+    height: 160px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.image-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 388px) {
+    .carousel-item {
+        height: 80px;
+    }
+
+    div.bg {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 388px) {
+    .carousel-item {
+        height: 160px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item {
+        height: 332px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-item {
+        height: 400px;
+    }
+}
+
+/* End */
+
+.carousel button span {
+    background-color: black;
+    border-radius: 40%;
+    border: 4px black solid;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+}
+
+.bg {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .6);
+    width: 50%;
+    border-radius: 6px;
+}
+
+.carousel h2 {
+    text-shadow: 16px 20px 3px rgba(0, 0, 0, .8);
+    font-weight: 700;
+}
+
+.carousel p {
+    margin-top: 2%;
+    color: red;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#xbox {
+    color: green;
+}
+
+#play {
+    color: rgba(38, 38, 207, 0.884)
+}
+
+#nintendo {
+    color: rgba(231, 58, 15, 0.822);
+}
+
+header ul {
+    margin-top: 3%;
+}
+
+#sobre {
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+#sobre img {
+    border-radius: 4px;
+}
+
+#sobre-p {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+    height: 100%;
+}
+
+body {
+    background-color: #ccc;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+footer h1,
+footer span {
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 800;
+}
+
+footer {
+    background: linear-gradient(45deg, rgb(87, 87, 163), rgb(10, 10, 56));
+    padding: 16px 0px;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+footer h6 {
+    color: #fff;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    min-height: 100vh;
+}
+
+#sobre h2 {
+    margin-top: 5%;
+}
+
+.sobre-bg {
+    background-color: #6a6d722f;
+    border-radius: 4px;
+    padding: 4px;
+    height: 100%;
+}
+
+main i {
+    color: rgb(35, 35, 221);
+}
+
+#produtos {
+    min-height: 67vh;
+    height: auto;
+}
+
+.img-produtos {
+    display: flex;
+    justify-content: center;
+}
+
+.img-produtos img {
+    border-radius: 4px;
+    width: 100%;
+}
+
+.col-6 button {
+    width: 100px;
+}
+
+.btn-align {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    resize: none;
+}
+
+header li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#contato img {
+    height: 50px;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+#contato ul i {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contato {
+    background-color: rgba(8, 8, 8, 0.384);
+}
+
+form {
+    width: 350px;
+}
+
+#form-col {
+    display: flex;
+    justify-content: center;
+}
+
+#Submit-message {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: green;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#Submit-message h4 {
+    padding: 10px;
+    background-color: green;
+    margin-bottom: 0;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#Submit-message i {
+    color: #fff;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+}
+
+.sub button:focus {
+    box-shadow: none;
+}
+
+label.error {
+    background-color: rgba(255, 0, 0, 0.671);
+    color: #fff;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+}
